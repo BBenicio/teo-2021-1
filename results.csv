@@ -1,13 +1,13 @@
-	instance	metaheuristic	time	cost	route	start
-0	../A-VRP\A-n32-k5.vrp	GRASP	8.318546772003174	961	"[ 0 20 29 25 15  9 22  4 18 14  1 13 17 19 21 31 24 27 26 12 16 30  6  3
-  2 23 28  8 11 10  5  7]"	"[False  True False False False False False False False False  True False
+	instance	metaheuristic	time	cost	route	start	valid
+0	./A-VRP/A-n32-k5.vrp	GRASP	12.78124475479126	974	"[ 0 16 26 12 30 27 24 14 13 21 17 19 31  7 20 25 10 29  5 15  8  9 18 22
+  6 23  3  2 28  4 11  1]"	"[False  True False False False False False  True False False False False
+ False False  True False False False False False False False False False
+  True False False False False False False  True]"	True
+1	./A-VRP/A-n32-k5.vrp	ILS	7.890577793121338	816	"[ 0 20  5 25 10 15 22  9  8 18 29 14 11  4 28 23  3  2  6  7 21 31 17 19
+ 13 26 12  1 16 30 24 27]"	"[False  True False False False False False False False False False  True
+ False False False False False False False  True False False False False
+ False False  True False False False False  True]"	True
+2	./A-VRP/A-n32-k5.vrp	Simulated Annealing	14.50004506111145	875	"[ 0 26  6  4 11  9 22 15 10 29 20 25  5 27 14 24 21 31 19 17 13  7 18  8
+ 28 23  2  3  1 12 16 30]"	"[False  True False False False False False False False False  True False
  False False False False  True False False False False False  True False
- False False False False False False False  True]"
-1	../A-VRP\A-n32-k5.vrp	ILS	7.735429763793945	958	"[ 0 27 14 24  7  1 26 30  5 29 15 22 11  8 10 25 20 23  4 28  9 18  3  2
-  6 13 21 17 19 31 16 12]"	"[False  True False False False False False False  True False False False
- False False False False False  True False False False False False False
- False  True False False False False False  True]"
-2	../A-VRP\A-n32-k5.vrp	Simulated Annealing	62.282524824142456	922	"[ 0 30 12  1  7 16 24  8  9 22 29 10 25  5 20 14 27 15 11  4  2 23 28 18
- 13 21 31 19 17  3  6 26]"	"[False  True False False False False  True False False False False False
- False False False  True False  True False False False False False False
-  True False False False False False False False]"
+ False False False False False False  True False]"	True

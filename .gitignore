@@ -112,3 +112,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Instances
+A-VRP/
+
+# VS Code
+*.code-workspace
