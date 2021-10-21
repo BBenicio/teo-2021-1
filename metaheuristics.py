@@ -25,8 +25,7 @@ def grasp(D, demands, Q, alpha=0.3, non_improving_iter=1000):
 
 
 @njit
-def ils(D, demands, Q, alpha=0.3, non_improving_iter=1000):
-    route, start = greedy(D, demands, Q, alpha)
+def ils(route, start, D, demands, Q, k=10, alpha=0.3, non_improving_iter=1000):
     route, start = local_search(route, start, D, demands, Q)
 
     best_sol = (route, start)
@@ -34,7 +33,7 @@ def ils(D, demands, Q, alpha=0.3, non_improving_iter=1000):
 
     current_nii = 0
     while current_nii < non_improving_iter:
-        route, start = shake(route, start, D, demands, Q, D.shape[0] / 4, alpha)
+        route, start = shake(route, start, D, demands, Q, k, alpha)
         route, start = local_search(route, start, D, demands, Q)
         cost = calculate_cost(route, start, D)
         if cost < best_cost:
@@ -48,8 +47,7 @@ def ils(D, demands, Q, alpha=0.3, non_improving_iter=1000):
 
 
 @njit
-def simulated_annealing(D, demands, Q, T_max=5000, T_min=0.1, alpha=0.99, M=5, beta=1.05):
-    route, start = greedy(D, demands, Q, 0)
+def simulated_annealing(route, start, D, demands, Q, T_max=5000, T_min=0.1, alpha=0.99, M=5, beta=1.05):
     cost = calculate_cost(route, start, D)
 
     best_sol = (route, start)
