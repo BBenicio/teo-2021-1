@@ -10,7 +10,7 @@ def local_search(route, start, D, demands, Q):
     improved = True
     while improved:
         improved = False
-        neighbourhood = aggregate(route, start, demands, Q)
+        neighbourhood = aggregate(route, start)
         for r, s in neighbourhood:
             if is_valid(r, s, demands, Q):
                 cost = calculate_cost(r, s, D)
