@@ -1,13 +1,25 @@
-	instance	metaheuristic	time	cost	route	start	valid
-0	./A-VRP/A-n32-k5.vrp	GRASP	12.78124475479126	974	"[ 0 16 26 12 30 27 24 14 13 21 17 19 31  7 20 25 10 29  5 15  8  9 18 22
-  6 23  3  2 28  4 11  1]"	"[False  True False False False False False  True False False False False
+	instance	metaheuristic	iteration	time	cost	route	start	valid
+0	./A-VRP/A-n32-k5.vrp	GRASP	0	1.0156664848327637	1062	"[ 0 17 21 19 31  7 13 14 30 12 16 24 27 26  6 23  2  3 18  8 11 22  9 29
+ 10 20  5 15 25  4 28  1]"	"[False  True False False False False False False  True False False False
  False False  True False False False False False False False False False
-  True False False False False False False  True]"	True
-1	./A-VRP/A-n32-k5.vrp	ILS	7.890577793121338	816	"[ 0 20  5 25 10 15 22  9  8 18 29 14 11  4 28 23  3  2  6  7 21 31 17 19
- 13 26 12  1 16 30 24 27]"	"[False  True False False False False False False False False False  True
+ False  True False False False False False  True]"	True
+1	./A-VRP/A-n32-k5.vrp	ILS	0	1.2499992847442627	910	"[ 0 26 12  1  6 24 27 28  8 18  9 29 10 25  5 20 15 22 11  4  3  2 23 14
+  7 13 17 19 31 21 30 16]"	"[False  True False False False False False  True False False False False
+ False False False False  True False False False False False False False
+  True False False False False False  True False]"	True
+2	./A-VRP/A-n32-k5.vrp	Simulated Annealing	0	3.8280792236328125	872	"[ 0 30 12  1 16 14 24  6  3  2 23 28  8 18  9 22 29  5 26  7 13 17 19 31
+ 21 20 25 10 15 11  4 27]"	"[False  True False False False False False  True False False False False
  False False False False False False False  True False False False False
- False False  True False False False False  True]"	True
-2	./A-VRP/A-n32-k5.vrp	Simulated Annealing	14.50004506111145	875	"[ 0 26  6  4 11  9 22 15 10 29 20 25  5 27 14 24 21 31 19 17 13  7 18  8
- 28 23  2  3  1 12 16 30]"	"[False  True False False False False False False False False  True False
- False False False False  True False False False False False  True False
+ False  True False False False False False  True]"	True
+3	./A-VRP/A-n32-k5.vrp	Tabu Search	0	1.7656230926513672	962	"[ 0 27 24 14 26  7 13 16 20 29 15 22  9 18  8 11  4 23 12  1 17  2  3  6
+  5 25 10 28 19 31 21 30]"	"[False  True False False False False False False  True False False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+4	./A-VRP/A-n32-k5.vrp	GRASP Tabu	0	4.714292287826538	875	"[ 0 26 13  6  3 23 28  4 11  8 18 16  1  7 14 24 27 20 29 22  9 15 10 25
+  5 21 31 19 17  2 30 12]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False False
+ False  True False False False False  True False]"	True
+5	./A-VRP/A-n32-k5.vrp	ILS Tabu	0	3.6562485694885254	848	"[ 0 26  7 13 21  1 12 30 20  5 25 10 15  9 22 29 14  6 17 19 31 16  2  3
+ 23 28  4 11  8 18 24 27]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False  True False
  False False False False False False  True False]"	True
