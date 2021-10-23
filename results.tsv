@@ -1,0 +1,961 @@
+	instance	n	alpha	greedy_cost	metaheuristic	iteration	time	cost	route	start	valid
+0	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP	0	1.0624985694885254	998	"[ 0 20  5 25 10 15 22 18  8 28 14 27 24 26 13 16  7 29 30 12 17 19 31 21
+  6 23  2  3  4 11  9  1]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+1	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS	0	1.3360283374786377	992	"[ 0 30 16  7  1 12 26 14  8 18 29 22  9 15 10 25  5 20 13 21 19 17 31  3
+  6 28  4 11  2 23 27 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+2	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Simulated Annealing	0	4.234372615814209	821	"[ 0 29 22  8 11  4 28 23  2  3  6 18  9 15 10 25  5 20 26  7 13 17 19 31
+ 21 30 12  1 16 14 24 27]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+3	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Tabu Search	0	1.781862497329712	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+4	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP Tabu	0	2.81250262260437	911	"[ 0 14 24 27 29  7 16 26 30  6  2  3 23  4 11 28 18 22 20  5 25 10 15  9
+  8  1 21 31 19 17 13 12]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+5	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS Tabu	0	3.18749737739563	903	"[ 0 12  1 16 26  6 18  8  9 22 27 20  5 25 10 15 29  7 13 21 31 19 17 30
+  3  2 23 28  4 11 24 14]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False  True
+ False False False False False False  True False]"	True
+6	./A-VRP/A-n32-k5.vrp	32	0.1	1136	GRASP	0	0.15624666213989258	1058	"[ 0 27 20 25 29  9 18  8 11 22 14 24 30 12 16  7 26  1 13 17 21 19 31  5
+ 10 15  4 28 23  3  6  2]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False  True
+ False False False False False False False  True]"	True
+7	./A-VRP/A-n32-k5.vrp	32	0.1	1136	ILS	0	0.1249997615814209	917	"[ 0 16 12  1 30 26 14 20  5 25 10 29 15  2  3 23 18 22  9  8  4 11 28  6
+  7 13 21 19 17 31 27 24]"	"[False  True False False False False False  True False False False False
+ False False False  True False False False False False False False False
+  True False False False False False  True False]"	True
+8	./A-VRP/A-n32-k5.vrp	32	0.1	1136	Simulated Annealing	0	3.718752861022949	938	"[ 0 21 31 19 17 13  7 26 20  5 25 10 18 23  3  2  6 30 16  1 14  9 22 15
+ 29 27  8 11  4 28 24 12]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+ False  True False False False False False  True]"	True
+9	./A-VRP/A-n32-k5.vrp	32	0.1	1136	Tabu Search	0	0.0781254768371582	962	"[ 0 30 26  7 13 21  1 12 14 27 20  5 29 25 10 15 22  6  2  3 23 28  4 11
+ 18 16 31 19 17  8  9 24]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+ False  True False False False False False  True]"	True
+10	./A-VRP/A-n32-k5.vrp	32	0.1	1136	GRASP Tabu	0	3.8437469005584717	855	"[ 0  6 23  3  2  7 16 26 27 14 18 22  9  8 11  4 28 20  5 25 10 15 29 24
+  1 13 21 31 19 17 12 30]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+11	./A-VRP/A-n32-k5.vrp	32	0.1	1136	ILS Tabu	0	1.515625238418579	861	"[ 0 30 26 13 21 31 19 17 14 22  9 15 10 25 29  5 20  3  2 23 28  4 11  8
+ 18 16 12  1  7  6 27 24]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False False
+ False  True False False False False  True False]"	True
+12	./A-VRP/A-n32-k5.vrp	32	0.2	1235	GRASP	0	0.0937495231628418	1089	"[ 0 30 27 14 24 20  5 15 29 12  1 13  6  3 23 28 18  7 21 17 31 19 16 26
+  2  8 11  4 22  9 10 25]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False  True
+ False False False False False False False  True]"	True
+13	./A-VRP/A-n32-k5.vrp	32	0.2	1235	ILS	0	0.1718752384185791	1020	"[ 0 12  7 16 13  3 23  6 14 20 27 21 17 19 31  2  4 11 28 18  8 22  9 29
+ 24  5 15 10 25  1 26 30]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False False
+  True False False False False  True False False]"	True
+14	./A-VRP/A-n32-k5.vrp	32	0.2	1235	Simulated Annealing	0	3.734375238418579	855	"[ 0 20 29 15 28 23  3  2  6  5 25 10 22  9 11  4  8 18 21 31 19 17 13  7
+ 27 14 26 16  1 12 30 24]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+15	./A-VRP/A-n32-k5.vrp	32	0.2	1235	Tabu Search	0	0.0781705379486084	928	"[ 0 27 18  8 11  4  7 26 30 20  5 25 10 29 15 22  9 14 16 13 19 31 21 12
+  1 17  2  3 23 28  6 24]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+16	./A-VRP/A-n32-k5.vrp	32	0.2	1235	GRASP Tabu	0	2.2187082767486572	862	"[ 0  6 18  8 28  4 11  9 22 29 20 14 26 16  1 12 30  5 25 10 15 23  3  2
+  7 21 31 19 17 13 27 24]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+17	./A-VRP/A-n32-k5.vrp	32	0.2	1235	ILS Tabu	0	1.8594167232513428	833	"[ 0 20 29  8 11  4 28 23  2  3  5 25 10 15 22  9 18  6 13 17 19 31 21 12
+  1  7 16 30 26 14 24 27]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False  True
+ False False False False  True False False False]"	True
+18	./A-VRP/A-n32-k5.vrp	32	0.3	1345	GRASP	0	0.21870851516723633	1022	"[ 0  7 21 31 19 17 16 26 30 14 24 27 29 15 22  8 18 12 13  2 28  4  3 20
+  5 10 25  9 11 23  6  1]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False  True
+ False False False False False False False  True]"	True
+19	./A-VRP/A-n32-k5.vrp	32	0.3	1345	ILS	0	0.1406238079071045	983	"[ 0 30 13 31 17 19 21 26 12 16  1  7 14 25  5 28  8  3  2 23  6 10 15  9
+ 22 11  4 18 29 24 27 20]"	"[False  True False False False False False False  True False False False
+ False  True False False False False False False False  True False False
+ False False False False False  True False False]"	True
+20	./A-VRP/A-n32-k5.vrp	32	0.3	1345	Simulated Annealing	0	3.5781242847442627	860	"[ 0  5 25 10 22  8 11  4 28 20 29 15  9 18 23  2  3  6 13 17 19 31 21  1
+ 27 24 14 26  7 16 30 12]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+21	./A-VRP/A-n32-k5.vrp	32	0.3	1345	Tabu Search	0	0.06249713897705078	1093	"[ 0 30 16  1  7 26 27 29 20 24 14 13 31 19  6 18  8 22  5 25 10 15  9 28
+  3 23  4 11  2 17 21 12]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+22	./A-VRP/A-n32-k5.vrp	32	0.3	1345	GRASP Tabu	0	4.50000262260437	879	"[ 0 27 18 23  3  2  6 14 26 30 20  5 25 10 15 29 21 31 19 17 13  7 24  8
+ 28  4 11  9 22 16  1 12]"	"[False  True False False False False False False False False  True False
+ False False False False  True False False False False False  True False
+ False False False False False  True False False]"	True
+23	./A-VRP/A-n32-k5.vrp	32	0.3	1345	ILS Tabu	0	3.7500009536743164	846	"[ 0  1 21 31 19 17 13 26  7  2  3 23  6 14 24 27 28  4 11  8 18  9 22 29
+ 20  5 25 10 15 12 16 30]"	"[False  True False False False False False  True False False False False
+ False False False  True False False False False False False False False
+  True False False False False  True False False]"	True
+24	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP	1	0.140625	1054	"[ 0 26 30  7 16 14 24 27 29  1 13 31 21 19 17 20  5 25 10 15  9 18 22  8
+  4  6  2 23  3 28 11 12]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False False
+  True False False False False False False  True]"	True
+25	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS	1	0.2031259536743164	916	"[ 0 30 12  1 16 27 14 20  5 29 10 22 11  4 23  3  2 21 31 17 19 13  7 26
+ 25 15 18  9  8 28  6 24]"	"[False  True False False False False False  True False False False False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+26	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Simulated Annealing	1	3.6093761920928955	858	"[ 0  3  2 23  9 22 15 29  5 20 25 10 18  8 11  4 28  6 26  7 13 17 19 31
+ 21 30 12  1 16 14 24 27]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+27	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Tabu Search	1	0.07812261581420898	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+28	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP Tabu	1	1.9843759536743164	907	"[ 0 30 26 12  1  7 28  8 18 14 27 20  5 25 10 15 29  3  2 23  4 11  9 22
+  6 16 13 17 19 31 21 24]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False False
+ False  True False False False False False  True]"	True
+29	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS Tabu	1	3.1718709468841553	856	"[ 0 15 22  9 11  4 28  8 18 24 27 20  5 25 10 29  7 13 17 19 31 21 26 14
+  6 23  3  2  1 12 30 16]"	"[False  True False False False False False False False  True False False
+ False False False False  True False False False False False False  True
+ False False False False False False  True False]"	True
+30	./A-VRP/A-n32-k5.vrp	32	0.1	1268	GRASP	1	0.09375548362731934	1059	"[ 0 17 21 13 31 19  7 14 24 30 26 12 16 27  6  3 28  4  8 11 18  9 22 29
+ 20 25 10 15  5  2 23  1]"	"[False  True False False False False False False  True False False False
+ False False  True False False False False False False False False False
+  True False False False False False False  True]"	True
+31	./A-VRP/A-n32-k5.vrp	32	0.1	1268	ILS	1	0.1406242847442627	842	"[ 0 27 24 14 26  7 16 30  6  2  3 23 28  4 11 18 20  5 29 25 10 15 22  9
+  8 21 31 19 17 13 12  1]"	"[False  True False False False False False False  True False False False
+ False False False False  True False False False False False False False
+ False  True False False False False  True False]"	True
+32	./A-VRP/A-n32-k5.vrp	32	0.1	1268	Simulated Annealing	1	3.5937488079071045	821	"[ 0 20  5 25 10 29 15 22  9  8  6  2  3 23 28  4 11 18 27 14 26 16  1 12
+ 30 21 31 19 17 13  7 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+33	./A-VRP/A-n32-k5.vrp	32	0.1	1268	Tabu Search	1	0.0625007152557373	953	"[ 0 30 16 12  1  7 26 14 22 29 20  5 25 10 15  9  8 18  6  3  2 23  4 11
+ 28 13 17 19 31 21 27 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+34	./A-VRP/A-n32-k5.vrp	32	0.1	1268	GRASP Tabu	1	2.359412908554077	895	"[ 0 16  7  6 18  8  9 22 14 24 27 20  5 25 10 15 29 30 26 21 31 19 17 13
+  3  2 23  4 11 28  1 12]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+35	./A-VRP/A-n32-k5.vrp	32	0.1	1268	ILS Tabu	1	2.23433780670166	875	"[ 0 12 16 26  6 18  8  9 22 27 20  5 25 10 15 29 14 24  3  2 23  4 11 28
+  7 13 17 19 31 21  1 30]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+36	./A-VRP/A-n32-k5.vrp	32	0.2	1127	GRASP	1	0.0937492847442627	1062	"[ 0 26 27 24 30 12 16  7 21 19 31 17  1 14 20  5 29  9 22 11  4 18 28 23
+ 13  6  3  2  8 15 10 25]"	"[False  True False False False False False  True False False False False
+ False  True False False False False False False False False False False
+  True False False False False False False  True]"	True
+37	./A-VRP/A-n32-k5.vrp	32	0.2	1127	ILS	1	0.20312237739562988	990	"[ 0  1  7 13 19 17 26 21 31  2 23 28 29  5 20 30  6  3  4 11  8 18 22  9
+ 14 24 27 25 15 10 16 12]"	"[False  True False False False False False  True False False False False
+ False False False  True False False False False False False False False
+ False  True False False False False  True False]"	True
+38	./A-VRP/A-n32-k5.vrp	32	0.2	1127	Simulated Annealing	1	3.500000238418579	811	"[ 0 20  5 25 10 29 15 22  9  8 18  7 21 31 19 17 13 14 28 11  4 23  3  2
+  6 12  1 16 26 30 24 27]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+ False  True False False False False  True False]"	True
+39	./A-VRP/A-n32-k5.vrp	32	0.2	1127	Tabu Search	1	0.07812309265136719	1043	"[ 0 30 12  7  6  3 23 28 18 22 29 27 24 14 21  1 16 26  5 10 15  9 11  4
+  8 13 31 19 17  2 25 20]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+ False  True False False False False  True False]"	True
+40	./A-VRP/A-n32-k5.vrp	32	0.2	1127	GRASP Tabu	1	1.8125050067901611	912	"[ 0 20 24  6  1 12 26 30  7 21 31 19 17 13 14 27  5 25 10 15  9 29  2  3
+ 23 28  4 11  8 18 22 16]"	"[False  True False False False False False False  True False False False
+ False False False  True False False False False False False  True False
+ False False False False False False False  True]"	True
+41	./A-VRP/A-n32-k5.vrp	32	0.2	1127	ILS Tabu	1	2.1249959468841553	869	"[ 0 16  7  6  2  3 23  8 18 14 26 27 29 15 10 25  5 20 24 22  9 11  4 28
+  1 21 31 19 17 13 30 12]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+  True False False False False False  True False]"	True
+42	./A-VRP/A-n32-k5.vrp	32	0.3	1330	GRASP	1	0.109375	1082	"[ 0 12  7 31 19 13  6 26 27 14 24 30  1 16 20 25  5 10 15 29  8  4 18 21
+ 17  3 23 28 11  9 22  2]"	"[False  True False False False False False False  True False False False
+ False False  True False False False False False False False False  True
+ False False False False False False False  True]"	True
+43	./A-VRP/A-n32-k5.vrp	32	0.3	1330	ILS	1	0.1093745231628418	1025	"[ 0  7 13 31  3  2  8 18 22  9 29 14 20  5 10 25 15  6 30 16 12 21 17 19
+ 26 27 23 28  4 11 24  1]"	"[False  True False False False False False False False False False False
+  True False False False False False False  True False False False False
+ False  True False False False False False  True]"	True
+44	./A-VRP/A-n32-k5.vrp	32	0.3	1330	Simulated Annealing	1	3.8437492847442627	858	"[ 0 26 14  6 23 28  4 11  9 29 20  2  3  8 18 22 15 10 25  5 13 17 19 31
+ 21 16 12  1  7 24 27 30]"	"[False  True False False False False False False False False False  True
+ False False False False False False False False  True False False False
+ False False  True False False False False  True]"	True
+45	./A-VRP/A-n32-k5.vrp	32	0.3	1330	Tabu Search	1	0.0625	1062	"[ 0 16  7  3 28 11  8  9 22 18 14 27 20  5 25 10 29  6 26 30 12  1 21 31
+ 19 23 13 17  2  4 15 24]"	"[False  True False False False False False False False False False  True
+ False False False False False False False False  True False False False
+ False False  True False False False False  True]"	True
+46	./A-VRP/A-n32-k5.vrp	32	0.3	1330	GRASP Tabu	1	2.734377145767212	902	"[ 0 30 16  6  2  3 23  8 18 22 29 14 21 31 19 17 13  7 26 27 15 10 25  5
+ 20 24  9 11  4 28  1 12]"	"[False  True False False False False False False False False False False
+  True False False False False False False  True False False False False
+ False  True False False False False  True False]"	True
+47	./A-VRP/A-n32-k5.vrp	32	0.3	1330	ILS Tabu	1	5.281255006790161	797	"[ 0 20  5 25 10 15 22  9  8 18 29 28 11  4 23  2  3  6 14 13 17 19 31 21
+  7 12  1 16 26 30 24 27]"	"[False  True False False False False False False False False False  True
+ False False False False False False False  True False False False False
+ False  True False False False False  True False]"	True
+48	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP	2	0.1406238079071045	1061	"[ 0 14 24 30 12 26 27 20  5  7 19 31 21 17  1 16 13  3  2 23 28 11 18  6
+  4  8 22  9 15 10 29 25]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False  True
+ False False False False False False False  True]"	True
+49	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS	2	0.1093747615814209	954	"[ 0 30 26 16  1 27 24 14 18  8  9 22 15 29 25 10  5 20 13 21 31 19 17 23
+  3  2 11 28  4  6  7 12]"	"[False  True False False False False False False  True False False False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+50	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Simulated Annealing	2	3.687497615814209	822	"[ 0 18  8  9 22 15 10 25  5 20 29 11  4 28 23  2  3  6 27 24 14 26  7 16
+ 30  1 21 31 19 17 13 12]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+51	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Tabu Search	2	0.0781259536743164	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+52	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP Tabu	2	1.953125238418579	929	"[ 0 27 24 14 26 16  1 30 20  5 25 10 29 15 22  9 18  7  6  3  2 23  4 28
+ 13 21 31 19 17 11  8 12]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+53	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS Tabu	2	1.6874971389770508	887	"[ 0 30 12  1 16 26 28  8 18 14 27 20  5 25 10 15 29 13 17 19 31 21  7  6
+  2  3 23  4 11  9 22 24]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False  True
+ False False False False False False False  True]"	True
+54	./A-VRP/A-n32-k5.vrp	32	0.1	1237	GRASP	2	0.15625214576721191	1053	"[ 0 26 24 14 30  7 16  4 18  1 13 17 19 31 21 20 29 25  5 10 15 22  9  8
+ 27  6  2  3 23 28 11 12]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False False
+  True False False False False False False  True]"	True
+55	./A-VRP/A-n32-k5.vrp	32	0.1	1237	ILS	2	0.12499809265136719	942	"[ 0 30 26  2 23 11  4 28  8 18  1 12 16 13  7  9 22 15 29 25 10  5 20 14
+  6  3 17 19 21 31 24 27]"	"[False  True False False False False False False False False  True False
+ False False False  True False False False False False False False False
+  True False False False False False  True False]"	True
+56	./A-VRP/A-n32-k5.vrp	32	0.1	1237	Simulated Annealing	2	3.718749761581421	848	"[ 0  7 23 28  4 11  8 18  9 22 13 17 19 31 21  1 24 14  6  3  2 26 16 30
+ 27 29 15 10 25  5 20 12]"	"[False  True False False False False False False False False  True False
+ False False False False  True False False False False False False False
+  True False False False False False False  True]"	True
+57	./A-VRP/A-n32-k5.vrp	32	0.1	1237	Tabu Search	2	0.062499284744262695	1058	"[ 0 30 16 12  1  7 14 18 22 29 27 25 28  2 13 26 20  5 10 15  9  8 11  4
+ 21 31 19 17  3 23  6 24]"	"[False  True False False False False False False False False  True False
+ False False False False  True False False False False False False False
+  True False False False False False False  True]"	True
+58	./A-VRP/A-n32-k5.vrp	32	0.1	1237	GRASP Tabu	2	3.3906259536743164	869	"[ 0 30 16  7 26 14 24 29 27  1 21 31 19 17 13 20  5 25 10 15 22  9  8 18
+ 28 11  4 23  3  2  6 12]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False False
+  True False False False False False False  True]"	True
+59	./A-VRP/A-n32-k5.vrp	32	0.1	1237	ILS Tabu	2	2.2031261920928955	839	"[ 0 30 16  1  7 13  6 26  2  3 23 28  4 11  8 18 14  5 25 10 15  9 22 29
+ 20 17 19 31 21 12 27 24]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+ False  True False False False False  True False]"	True
+60	./A-VRP/A-n32-k5.vrp	32	0.2	1291	GRASP	2	0.17187261581420898	1013	"[ 0 20 25 29 18  8  9 28  4 23 30 24 27 26 12 13  7  1 17 31 19 21 14  6
+  3  2 11 22 15 10  5 16]"	"[False  True False False False False False False False False  True False
+ False False False False  True False False False False False  True False
+ False False False False False False False  True]"	True
+61	./A-VRP/A-n32-k5.vrp	32	0.2	1291	ILS	2	0.17187809944152832	928	"[ 0 16 12  1  7 30 14 20  5 29 15 22  8 18 28  4 23  3 26  6  2 11  9 10
+ 25 21 17 19 31 13 24 27]"	"[False  True False False False False False  True False False False False
+ False False False False False False False  True False False False False
+ False  True False False False False  True False]"	True
+62	./A-VRP/A-n32-k5.vrp	32	0.2	1291	Simulated Annealing	2	3.8906242847442627	887	"[ 0 24 28  4 11  8 18 29  5 20 12  1  7 13  6 26 30 23  3  2 17 19 31 21
+ 14 22  9 15 10 25 27 16]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+63	./A-VRP/A-n32-k5.vrp	32	0.2	1291	Tabu Search	2	0.078125	1060	"[ 0 27 24 14 26 16  7  6 18 22 12  1 21 13  2  3 29 31 19 17 23  4 11  8
+ 20  5 25 10 15  9 28 30]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+64	./A-VRP/A-n32-k5.vrp	32	0.2	1291	GRASP Tabu	2	3.8593757152557373	906	"[ 0 14 18  6  7  1 12 16 26 20  5 29 25 10 15  9 22  3  2 23 28  4 11  8
+ 30 21 31 19 17 13 27 24]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+65	./A-VRP/A-n32-k5.vrp	32	0.2	1291	ILS Tabu	2	1.8125417232513428	871	"[ 0 24 14  7  1 12 30 20 29 22  8 11  4 28 23  2 26 13 21 31 19 17  3  6
+  5 25 10 15  9 18 27 16]"	"[False  True False False False False False  True False False False False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+66	./A-VRP/A-n32-k5.vrp	32	0.3	1307	GRASP	2	0.09370541572570801	1061	"[ 0 27 24 26 13 16 14  7 30 12 17 19 31 21 20 29 22 18 11  4  8 23  3 28
+  6  5 10 25 15  9  2  1]"	"[False  True False False False False False False  True False False False
+ False False  True False False False False False False False False False
+ False  True False False False False False  True]"	True
+67	./A-VRP/A-n32-k5.vrp	32	0.3	1307	ILS	2	0.14063048362731934	1053	"[ 0 20  6  3 23  2 28  9 22 18 14 16  1  7 11  4  8  5 19 21 31 17 13 30
+ 27 25 10 15 29 26 12 24]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+68	./A-VRP/A-n32-k5.vrp	32	0.3	1307	Simulated Annealing	2	3.6718692779541016	890	"[ 0 30 12  1  7 13  6 26 18  8 28 23  3 17 19 31 21 20  5 25 10 15 29 27
+ 14 22  9 11  4  2 16 24]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+69	./A-VRP/A-n32-k5.vrp	32	0.3	1307	Tabu Search	2	0.0781242847442627	1026	"[ 0 16  7 13 31 19 28 18 30 26 14 24 27 22 15 10 29 20  5 25  9 11  4  8
+  1 21 17  2  3 23  6 12]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+70	./A-VRP/A-n32-k5.vrp	32	0.3	1307	GRASP Tabu	2	1.6250436305999756	886	"[ 0 13 17 19 31 21  1 30 26 16 12  7  3 23  6 27 29 18  8 11  4 28  2 20
+  5 25 10 15  9 22 14 24]"	"[False  True False False False False False  True False False False False
+ False False False  True False False False False False False False  True
+ False False False False False False  True False]"	True
+71	./A-VRP/A-n32-k5.vrp	32	0.3	1307	ILS Tabu	2	4.671878814697266	823	"[ 0 21 31 19 17 13  7  2  3 23 28  4 11 29  5 20 25 10 15 22  9  8 18  6
+ 14 26 16  1 12 30 24 27]"	"[False  True False False False False False  True False False False False
+ False False False False  True False False False False False False False
+ False  True False False False False  True False]"	True
+72	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP	3	0.234375	1059	"[ 0 30  1 21 31 19 17 26 14 27 20 25  5 10 15 22 18 29 16  7 13 12 24  6
+  3  2 23  4 28  8  9 11]"	"[False  True False False False False False False  True False False False
+ False False False False False False  True False False False False  True
+ False False False False False False  True False]"	True
+73	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS	3	0.12495613098144531	1007	"[ 0 26  3 23 28  4 11 18  8  9 20 25 10 15 22 29  5 27 12  7 13  1 30 24
+ 14  6  2 31 21 16 19 17]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False  True
+ False False False False False False  True False]"	True
+74	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Simulated Annealing	3	3.609374523162842	821	"[ 0  8  9 22 15 29 10 25  5 20 18 11  4 28 23  2  3  6 27 14 26 16  1 12
+ 30  7 13 17 19 31 21 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+75	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Tabu Search	3	0.0625002384185791	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+76	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP Tabu	3	3.046875	902	"[ 0 30 12  1 16 26 14 29 27  6  3  2  4 11  9 22 20  5 25 10 15 18  8 28
+ 23 13 17 19 31 21  7 24]"	"[False  True False False False False False False False  True False False
+ False False False False  True False False False False False False False
+ False  True False False False False False  True]"	True
+77	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS Tabu	3	2.484375	865	"[ 0 12  1  7 14 24 26 30  5 25 10 29 15 22  9  8 18 16 13 17 19 31 21  6
+  2  3 23  4 11 28 20 27]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False  True
+ False False False False False False  True False]"	True
+78	./A-VRP/A-n32-k5.vrp	32	0.1	1213	GRASP	3	0.0781245231628418	1078	"[ 0 14 26 24 27 16 13  7 30 12 17 19 21 31 20 25 10 22 18 11  9  4 29  6
+  3  2 23  8 28 15  5  1]"	"[False  True False False False False False False  True False False False
+ False False  True False False False False False False False False  True
+ False False False False False False False  True]"	True
+79	./A-VRP/A-n32-k5.vrp	32	0.1	1213	ILS	3	0.1718764305114746	987	"[ 0 30 13 31 19  7 16 26 20  5 10 29 18  8 28 23  2  3 25 15 22  9 11  4
+ 27 24 14 17 21  6 12  1]"	"[False  True False False False False False False  True False False False
+ False False False False False False  True False False False False False
+  True False False False False False  True False]"	True
+80	./A-VRP/A-n32-k5.vrp	32	0.1	1213	Simulated Annealing	3	3.593745470046997	883	"[ 0 20  5 29  8 11  4 28 23  6 27 25 10 15 22  9 18 14 30 12  1  7  2  3
+ 26 16 21 31 19 17 13 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+81	./A-VRP/A-n32-k5.vrp	32	0.1	1213	Tabu Search	3	0.09375596046447754	940	"[ 0 30 26 16 12  7  6 22 29 14 24  3  2 23  4 11  8 18 20  5 25 10 15  9
+ 28  1 21 31 19 17 13 27]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+82	./A-VRP/A-n32-k5.vrp	32	0.1	1213	GRASP Tabu	3	3.140620231628418	851	"[ 0 26  7 13 17 19 31 21 14 18  8  4 11 22 29 10 25  5 20 30 12  1 16 24
+ 15  9 28 23  2  3  6 27]"	"[False  True False False False False False False  True False False False
+ False False False False False False False  True False False False False
+  True False False False False False False  True]"	True
+83	./A-VRP/A-n32-k5.vrp	32	0.1	1213	ILS Tabu	3	2.7187952995300293	854	"[ 0 15 22  9 18  8 11  4 28 26  7  2  3 23  6 27 20  5 25 10 29 14 24 13
+ 17 19 31 21  1 12 16 30]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False  True
+ False False False False False  True False False]"	True
+84	./A-VRP/A-n32-k5.vrp	32	0.2	1209	GRASP	3	0.10933351516723633	944	"[ 0 27 24 30 12 16 26 14  6  2 23 18  9  8 11 28 29 20  5 25 10 15 22  4
+  3  7 13 21 19 17 31  1]"	"[False  True False False False False False  True False False False False
+ False False False False False  True False False False False False False
+ False  True False False False False False  True]"	True
+85	./A-VRP/A-n32-k5.vrp	32	0.2	1209	ILS	3	0.12499880790710449	912	"[ 0 30 26  7  6  2  3 23 18 29 14 15 10 25  5 20 27 28  4 11  8  9 22 24
+  1 31 19 17 21 13 16 12]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+86	./A-VRP/A-n32-k5.vrp	32	0.2	1209	Simulated Annealing	3	3.7500011920928955	852	"[ 0 24 18  8 28  4 11  9 22 14  6 13  7  1 16 26 30 21 31 19 17  2  3 23
+ 20  5 25 10 15 29 27 12]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+87	./A-VRP/A-n32-k5.vrp	32	0.2	1209	Tabu Search	3	0.0781242847442627	1064	"[ 0 16 12  1 13  3 14 26 30 24 27  5 29 15 22  9 18 20 25 10  8 11  4 28
+  6 23  2 17 31 21  7 19]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+88	./A-VRP/A-n32-k5.vrp	32	0.2	1209	GRASP Tabu	3	5.5625	870	"[ 0 27 20  5 25 10 29 15 22 18 14 16 12  1  7 26 30 13 21 31 19 17  3  6
+  2 23 28  4 11  8  9 24]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+89	./A-VRP/A-n32-k5.vrp	32	0.2	1209	ILS Tabu	3	2.531249523162842	801	"[ 0 30 12  1 16 26 14  6  3  2 23 28  4 11 18  8  9 22 15 10 25 29  5 20
+  7 13 17 19 31 21 24 27]"	"[False  True False False False False  True False False False False False
+ False False  True False False False False False False False False False
+  True False False False False False  True False]"	True
+90	./A-VRP/A-n32-k5.vrp	32	0.3	1431	GRASP	3	0.2343759536743164	1006	"[ 0 30 16 12  1 14 24 26  6 23 18  9  8  4 28 22 11 29 20 25 10 15  5  2
+  3  7 13 17 31 19 21 27]"	"[False  True False False False False False  True False False False False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+91	./A-VRP/A-n32-k5.vrp	32	0.3	1431	ILS	3	0.14066648483276367	921	"[ 0 12 30 16  7 13  6 14 20 29  5 25 10 15  9 22 11  8 18 28  4 23  3  2
+ 21 31 19 17  1 26 27 24]"	"[False  True False False False False False False  True False False False
+ False False False False  True False False False False False False False
+  True False False False False False  True False]"	True
+92	./A-VRP/A-n32-k5.vrp	32	0.3	1431	Simulated Annealing	3	3.6427555084228516	873	"[ 0 30  2 23  4 11  9 22 26 13 17 19 31 21 16 12  1  7  6  3 28  8 18 14
+ 20  5 25 10 15 29 27 24]"	"[False  True False False False False False False  True False False False
+ False False False  True False False False False False False False False
+  True False False False False False False  True]"	True
+93	./A-VRP/A-n32-k5.vrp	32	0.3	1431	Tabu Search	3	0.07813048362731934	970	"[ 0 27 30 16 12  1  3 18 26  7 13 17 19 31 21 14 20  5 25 10 29 15  9 22
+  6  2 23 28  4 11  8 24]"	"[False  True False False False False False False  True False False False
+ False False False  True False False False False False False False False
+  True False False False False False False  True]"	True
+94	./A-VRP/A-n32-k5.vrp	32	0.3	1431	GRASP Tabu	3	4.2187018394470215	873	"[ 0 20 25 10  9 11  4  8 18 29 24 26  1 12 16 30  5 15 22 28 23  3  2  6
+ 14  7 13 17 19 31 21 27]"	"[False  True False False False False False False False False  True False
+ False False False False  True False False False False False False False
+ False  True False False False False False  True]"	True
+95	./A-VRP/A-n32-k5.vrp	32	0.3	1431	ILS Tabu	3	2.4218788146972656	842	"[ 0 30 12  1  7 16 26  6 13 17 19 31 21 20  5 29 25 10 15 22  9 18 28  8
+ 11  4 23  2  3 14 24 27]"	"[False  True False False False False False  True False False False False
+ False  True False False False False False False False False  True False
+ False False False False False False  True False]"	True
+96	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP	4	0.12499761581420898	1060	"[ 0  1 21 19 31  7 14 30 26 24 27  5 25 15 29 20 10 18 11  8 28 22  9  4
+ 23 12 17 13  6  2  3 16]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False False
+ False  True False False False False False  True]"	True
+97	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS	4	0.2343909740447998	985	"[ 0 26  7  1 13  2  3  6 14 30 16 15  9 22  8 23  4 11 28 18 29 10 25  5
+ 20 12 31 17 19 21 27 24]"	"[False  True False False False False False False False  True False False
+ False False False False  True False False False False False False False
+ False  True False False False False  True False]"	True
+98	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Simulated Annealing	4	3.921860456466675	845	"[ 0 28  4 11  8 18  9 22 15 29 14  6 23  3  2  7  1 30 16 21 31 19 17 13
+ 26 20  5 25 10 27 24 12]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+99	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Tabu Search	4	0.07816934585571289	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+100	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP Tabu	4	5.453124284744263	825	"[ 0 30 12  1 16 26 14 27 20  5 29 25 10 15 22  9  8 18  6  3  2 23 28  4
+ 11 13 17 19 31 21  7 24]"	"[False  True False False False False False False  True False False False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+101	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS Tabu	4	3.3124547004699707	905	"[ 0 30 16 18  8 11  9 22 24 14 27 20  5 25 10 15 29 26  7 21 31 19 17 13
+  6  2  3 23  4 28 12  1]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+102	./A-VRP/A-n32-k5.vrp	32	0.1	1242	GRASP	4	0.2187490463256836	1094	"[ 0 12  1 26 14 27 20 25 29  7 16 13 19 17  3 30  6 23  2  4  8  9 18 21
+ 31 28 11 22 15 10  5 24]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False  True
+ False False False False False False False  True]"	True
+103	./A-VRP/A-n32-k5.vrp	32	0.1	1242	ILS	4	0.2656402587890625	882	"[ 0 13 21 31 19 17 26 30 20  5 29 25 10 15  9 22 18  8 14  2  3  4 11 28
+ 23  6  7  1 16 12 27 24]"	"[False  True False False False False False False  True False False False
+ False False False False False False  True False False False False False
+ False False  True False False False False  True]"	True
+104	./A-VRP/A-n32-k5.vrp	32	0.1	1242	Simulated Annealing	4	3.593737840652466	850	"[ 0 14  6 23 28  4 11  8 18 27 29 22  9 15 10 25  5 20 12  1  7  2  3 26
+ 30 16 21 31 19 17 13 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+105	./A-VRP/A-n32-k5.vrp	32	0.1	1242	Tabu Search	4	0.0781259536743164	923	"[ 0 30 26 16 12  1  7  8 18 14 20  5 25 10 15  9 22 29  6  3  2 23  4 11
+ 28 13 17 19 31 21 27 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+106	./A-VRP/A-n32-k5.vrp	32	0.1	1242	GRASP Tabu	4	1.9531738758087158	857	"[ 0 27 14 26 16  1 12 30  6  2 28  4 11  8 18 22 29 20  5 25 10 15  9 23
+  3  7 13 17 19 31 21 24]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+ False  True False False False False False  True]"	True
+107	./A-VRP/A-n32-k5.vrp	32	0.1	1242	ILS Tabu	4	2.2343215942382812	819	"[ 0 30 16 12  1  7 26  5 25 10 15 22  9  8 18 29 20 14 28 11  4 23  2  3
+  6 13 21 31 19 17 24 27]"	"[False  True False False False False False  True False False False False
+ False False False False False  True False False False False False False
+ False  True False False False False  True False]"	True
+108	./A-VRP/A-n32-k5.vrp	32	0.2	1228	GRASP	4	0.2031710147857666	999	"[ 0 12 30  1 16 24 14 20  5 25 10  9 22 11 18  8 23 26 13 21 31 17 19  3
+  6 27 29 15  4 28  2  7]"	"[False  True False False False False False  True False False False False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+109	./A-VRP/A-n32-k5.vrp	32	0.2	1228	ILS	4	0.12496137619018555	959	"[ 0 30 21 31 19 17 13 18 29  5 10 25 15 22  9  8  6 28  4 11 23  2  3 16
+ 12  1  7 26 14 20 24 27]"	"[False  True False False False False False  True False False False False
+ False False False False  True False False False False False False  True
+ False False False False False False  True False]"	True
+110	./A-VRP/A-n32-k5.vrp	32	0.2	1228	Simulated Annealing	4	3.6874966621398926	833	"[ 0 16  7 13  2  3 23  6 26 14 18  8 28  4 11  9 22 27 20  5 25 10 15 29
+ 24  1 21 31 19 17 30 12]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+111	./A-VRP/A-n32-k5.vrp	32	0.2	1228	Tabu Search	4	0.0781254768371582	1066	"[ 0 30 12  1 16 26 14  9  5 27 20 25 10 29 15 22  8 18  7 13  6  2  3 23
+ 28 21 31 19 17  4 11 24]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+112	./A-VRP/A-n32-k5.vrp	32	0.2	1228	GRASP Tabu	4	1.5781214237213135	919	"[ 0 20  5 29 15 22  9 18 23  2  3 26 12  1 16 30 14 24  7 21 31 19 17 13
+ 27  8 11  4 28  6 10 25]"	"[False  True False False False False False False False False False False
+  True False False False False False  True False False False False False
+  True False False False False False  True False]"	True
+113	./A-VRP/A-n32-k5.vrp	32	0.2	1228	ILS Tabu	4	1.687547206878662	848	"[ 0 30 16 12  1  7 26 14 18  9 22 15 29 10 25  5 20  8 11  4 28 23  2  3
+ 13 21 31 19 17  6 27 24]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+114	./A-VRP/A-n32-k5.vrp	32	0.3	1291	GRASP	4	0.17183184623718262	1089	"[ 0 20  5 29 25 10 15 22  9  8 18 16 14 30  1 21  7 13 26 12 17 19 31  2
+ 27  4  6  3 23 28 11 24]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+115	./A-VRP/A-n32-k5.vrp	32	0.3	1291	ILS	4	0.1562488079071045	903	"[ 0 14 18  8  4 11 28 23  3  6 30  7 13  2 31 16 12  1 21 17 19 26 20  5
+ 25 10 15 22  9 29 24 27]"	"[False  True False False False False False False False False False  True
+ False False False False  True False False False False False  True False
+ False False False False False False  True False]"	True
+116	./A-VRP/A-n32-k5.vrp	32	0.3	1291	Simulated Annealing	4	3.656250238418579	855	"[ 0 29 25 10 15 22  9 18  8 28 20  5 11  4 23  3  2  6 30 12  1 16 14 24
+ 26  7 13 17 19 31 21 27]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+117	./A-VRP/A-n32-k5.vrp	32	0.3	1291	Tabu Search	4	0.09375548362731934	1092	"[ 0 30 26 16  7  6 14 29 25  5 20 27 12  1 13  3 23 18 21 31 19 17  2 28
+ 10 15 22  9  8 11  4 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+118	./A-VRP/A-n32-k5.vrp	32	0.3	1291	GRASP Tabu	4	1.984370231628418	883	"[ 0 27 29 24 14  7 16 26 30 20  5 25 10 15 22  9  8 18 13 17 19 31 21  1
+  6  3  2  4 11 28 23 12]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+119	./A-VRP/A-n32-k5.vrp	32	0.3	1291	ILS Tabu	4	3.281252145767212	842	"[ 0 26  6 23  3  2  7 16 30 20  5 25 10 15 29 14 24 17 19 31 21 13  1 28
+  4 11  8 18  9 22 27 12]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False  True
+ False False False False False False False  True]"	True
+120	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP	5	0.09374427795410156	1017	"[ 0 27 24 26 12 30 16 14 29 10  9  8 11  4 23  3  6 18 22  7 13 19 17 21
+ 31 20  5 25 15 28  2  1]"	"[False  True False False False False False  True False False False False
+ False False False False False False False  True False False False False
+ False  True False False False False False  True]"	True
+121	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS	5	0.10937857627868652	977	"[ 0 30  1 16 12 26 14  6  3  8  9 22 15 10 25  5 29 20 13 21 31 17 19  7
+  2 23 11 28  4 18 27 24]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+122	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Simulated Annealing	5	3.68754243850708	811	"[ 0 20  5 25 10 15 22  9  8 18 29 11  4 28 23  2  3  6 21 31 19 17 13  7
+ 26 24 14 16  1 12 30 27]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+123	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Tabu Search	5	0.07812738418579102	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+124	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP Tabu	5	2.7968263626098633	846	"[ 0  2  3 23 28  4 11  8 18 29 30 16  7 26 14 24 27 21 31 19 17 13  6 20
+  5 25 10 15  9 22  1 12]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False  True
+ False False False False False False  True False]"	True
+125	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS Tabu	5	2.0468757152557373	898	"[ 0 30 16 12  1  7 26 14 18 28 11  9 29 10 25  5 20  6  3 17 19 31 21 13
+  2 23  4  8 22 15 27 24]"	"[False  True False False False False False  True False False False False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+126	./A-VRP/A-n32-k5.vrp	32	0.1	1182	GRASP	5	0.12495756149291992	984	"[ 0 24 27 30 16 12 26 14  6  2 23  4 11  8 18 22 29 20  1 21 17 19 31  7
+ 13  3 28  9 15 10  5 25]"	"[False  True False False False False False  True False False False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+127	./A-VRP/A-n32-k5.vrp	32	0.1	1182	ILS	5	0.1562492847442627	904	"[ 0 26 16  7 13  2  3 23 18  6 24 14 29 10 25  5 20 27 15 22  9 11  4 28
+  8 17 19 31 21  1 30 12]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+128	./A-VRP/A-n32-k5.vrp	32	0.1	1182	Simulated Annealing	5	3.6874988079071045	833	"[ 0 27 22  9 11  4 28  8 18 14 26  6 23  3  2 13  7 16 20  5 25 10 15 29
+ 24  1 21 31 19 17 30 12]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+129	./A-VRP/A-n32-k5.vrp	32	0.1	1182	Tabu Search	5	0.078125	1115	"[ 0 30 16 12  1  7 26 14 22 29 27 25  6  2  3 23  8 18 20  5 10 15  9 11
+  4 13 21 31 19 17 28 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+130	./A-VRP/A-n32-k5.vrp	32	0.1	1182	GRASP Tabu	5	2.7656233310699463	910	"[ 0  5 25 10 15 22  9  8 23 18 29 27 24 14 26 16  1 30  7 21 31 19 17 13
+  6  3  2  4 11 28 20 12]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+131	./A-VRP/A-n32-k5.vrp	32	0.1	1182	ILS Tabu	5	1.8125038146972656	889	"[ 0 30 16 12  1  7 26 14 29 18  8 28 23  3  2  4 11 20  5 25 10 15  9 22
+  6 13 21 31 19 17 27 24]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+132	./A-VRP/A-n32-k5.vrp	32	0.2	1214	GRASP	5	0.1249997615814209	1080	"[ 0 26 13  3 23 28  8 18 22  9 15 29  7 31 21 19 16 30 14 27 20  5 25 10
+  6  1 24  2  4 11 17 12]"	"[False  True False False False False False False False False False False
+  True False False False False False False  True False False False False
+ False False  True False False False False  True]"	True
+133	./A-VRP/A-n32-k5.vrp	32	0.2	1214	ILS	5	0.1562495231628418	917	"[ 0 26 30  7 12  1 16  6 28  4  8  9 25  5 14  2  3 23 11 18 22 15 10 29
+ 20 13 21 19 17 31 27 24]"	"[False  True False False False False False  True False False False False
+ False False  True False False False False False False False False False
+ False  True False False False False  True False]"	True
+134	./A-VRP/A-n32-k5.vrp	32	0.2	1214	Simulated Annealing	5	3.359375	853	"[ 0 20  5 29 22  9 11  4 28  8 18 14 12  1  2  3 23  6 26  7 13 17 19 31
+ 21 24 27 15 10 25 30 16]"	"[False  True False False False False False False False False False False
+  True False False False False False  True False False False False False
+ False  True False False False False  True False]"	True
+135	./A-VRP/A-n32-k5.vrp	32	0.2	1214	Tabu Search	5	0.0781242847442627	1083	"[ 0 27 24 14 26  7  6  3 23  8 18 29 30 16 12  1 21 13 20  5 25 10 15  9
+ 22 31 19 17  2 28  4 11]"	"[False  True False False False False False False False False False False
+  True False False False False False  True False False False False False
+ False  True False False False False  True False]"	True
+136	./A-VRP/A-n32-k5.vrp	32	0.2	1214	GRASP Tabu	5	4.0625	911	"[ 0 30 26 12  1 21 13  7 24 14  5 29 22  8 11  4 28 27 18  9 15 10 25 20
+ 31 19 17  2  3 23  6 16]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+137	./A-VRP/A-n32-k5.vrp	32	0.2	1214	ILS Tabu	5	2.203125238418579	859	"[ 0 26  7 13  2  3 23 14 24  6 28  4 11  8 18  9 22 29 20  5 25 10 15 27
+  1 21 31 19 17 30 16 12]"	"[False  True False False False False False False False  True False False
+ False False False False False False False  True False False False False
+  True False False False False  True False False]"	True
+138	./A-VRP/A-n32-k5.vrp	32	0.3	1317	GRASP	5	0.10937690734863281	930	"[ 0 27 24 30 16 12 26 14  7 13 21 31 17 19  6  2 23 28 18 22 15 10  5 20
+ 25 29  9  8 11  4  3  1]"	"[False  True False False False False False  True False False False False
+ False False  True False False False False False False False False  True
+ False False False False False False False  True]"	True
+139	./A-VRP/A-n32-k5.vrp	32	0.3	1317	ILS	5	0.2187490463256836	1000	"[ 0  1 16 26 27 20  5 25 29 10 15  9 22 18  8 11  4 23 28  3  2  6  7 13
+ 21 31 17 19 24 14 12 30]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+  True False False False False False  True False]"	True
+140	./A-VRP/A-n32-k5.vrp	32	0.3	1317	Simulated Annealing	5	4.477290630340576	811	"[ 0 18  8  9 22 15 10 25  5 20 29 11  4 28 23  2  3  6 21 31 19 17 13  7
+ 26 30 12  1 16 14 24 27]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+141	./A-VRP/A-n32-k5.vrp	32	0.3	1317	Tabu Search	5	0.0781254768371582	1067	"[ 0 14 24 27  5 29  9 18  8  2 26  7 31 19 17 23 28 22 30 12  1 21 13  3
+  6 20 25 10 15 11  4 16]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+142	./A-VRP/A-n32-k5.vrp	32	0.3	1317	GRASP Tabu	5	2.9218716621398926	912	"[ 0 30 16 12  1 26 14 18 29 27  7 13 17 19 31 21 20  5 25 10 15 22  9  8
+  6  3  2 23 28  4 11 24]"	"[False  True False False False False False False False False  True False
+ False False False False  True False False False False False False False
+  True False False False False False False  True]"	True
+143	./A-VRP/A-n32-k5.vrp	32	0.3	1317	ILS Tabu	5	2.546919822692871	865	"[ 0 20  5 25 10 29 15 22  9 18 14 13 17 19 31 21  1  6 23  3  2  7 16 26
+ 24 28  4 11  8 27 12 30]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+144	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP	6	0.2343757152557373	1036	"[ 0 27 20 25  5 10 29  9 18  8 22 14 12 30 24 26  1 16  6  3  2 23 28 11
+  4  7 21 19 17 31 13 15]"	"[False  True False False False False False False False False False False
+  True False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+145	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS	6	0.1093289852142334	988	"[ 0 30 16 12  1  7 26 14 18  8 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+ 23  6  2 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+146	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Simulated Annealing	6	3.6093785762786865	845	"[ 0  3  2 23 28  4 11 29  5 20 25 10 15 22  9  8 18  6 27 14 26 16  1 12
+ 30  7 13 17 19 31 21 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+147	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Tabu Search	6	0.0781245231628418	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+148	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP Tabu	6	4.156247138977051	893	"[ 0 14  6 26 16  1 12 30 20 29 15 22  9 11  4 28  5 25 10 18  8 23  3  2
+  7 13 17 19 31 21 24 27]"	"[False  True False False False False False False  True False False False
+ False False False False  True False False False False False False False
+  True False False False False False  True False]"	True
+149	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS Tabu	6	1.7656285762786865	890	"[ 0 30 16 26 18  8  9 22 14 24 27 20  5 25 10 15 29  7 13 21 31 19 17  6
+  3  2 23 28  4 11  1 12]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False  True
+ False False False False False False  True False]"	True
+150	./A-VRP/A-n32-k5.vrp	32	0.1	1165	GRASP	6	0.2812502384185791	1017	"[ 0  7 13  3 23  8 22 11  4 18 29  5 12 26  1 14 24 27 20 30  2 17 19 31
+ 21  6 28  9 15 10 25 16]"	"[False  True False False False False False False False False False False
+  True False False False False False False  True False False False False
+ False  True False False False False False  True]"	True
+151	./A-VRP/A-n32-k5.vrp	32	0.1	1165	ILS	6	0.12499618530273438	924	"[ 0  1 19 17 31 21 26 30 20 29  5 25 10 15  9 18 22  4 11  8 28  3  2 23
+ 16 12  7 13  6 24 14 27]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+  True False False False False  True False False]"	True
+152	./A-VRP/A-n32-k5.vrp	32	0.1	1165	Simulated Annealing	6	3.921879291534424	845	"[ 0  6  3  2 23 28  8 18 15 29 20  5 25 10 22  9 11  4 30 12  1 16 26 14
+ 27 21 31 19 17 13  7 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+153	./A-VRP/A-n32-k5.vrp	32	0.1	1165	Tabu Search	6	0.09374666213989258	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+154	./A-VRP/A-n32-k5.vrp	32	0.1	1165	GRASP Tabu	6	2.6406655311584473	892	"[ 0 20 29 10 15 22  9 18  8 28 23  3 14 27 24 26  1 12 30  7 13 17 19 31
+ 21  6  2  4 11 25  5 16]"	"[False  True False False False False False False False False False False
+ False  True False False False False False  True False False False False
+ False  True False False False False False  True]"	True
+155	./A-VRP/A-n32-k5.vrp	32	0.1	1165	ILS Tabu	6	1.5468344688415527	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+156	./A-VRP/A-n32-k5.vrp	32	0.2	1342	GRASP	6	0.1250019073486328	1088	"[ 0 27 30  7 31 19 13 26 24 14  6  1 12 16 20  5 10 22  9 28 11  4  8 18
+ 21 17  3 23  2 15 29 25]"	"[False  True False False False False False  True False False False False
+ False False  True False False False False False False False False False
+  True False False False False False False  True]"	True
+157	./A-VRP/A-n32-k5.vrp	32	0.2	1342	ILS	6	0.1406261920928955	892	"[ 0  5 25 10 29 15 22  9  8 18 20 13 28 11  4 23  3  2 30 16 12  1  7 26
+ 21 19 31 17  6 14 27 24]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+158	./A-VRP/A-n32-k5.vrp	32	0.2	1342	Simulated Annealing	6	3.546926498413086	853	"[ 0 26 14 24 29 15 10 25  5 20 12  7 13  2  3 23  6 28  4 11  8 18  9 22
+ 27 17 19 31 21  1 30 16]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False False
+ False  True False False False False  True False]"	True
+159	./A-VRP/A-n32-k5.vrp	32	0.2	1342	Tabu Search	6	0.07806968688964844	1194	"[ 0 27 24 14 26  7 21 31  6 18 30 16 12  1 13  3  8 20  5 29 25 10 15  9
+ 22 19 17  2 23 28  4 11]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False False
+ False  True False False False False  True False]"	True
+160	./A-VRP/A-n32-k5.vrp	32	0.2	1342	GRASP Tabu	6	2.81250262260437	880	"[ 0 30 26 16 12  7 14 24 29 20  5 25 10 15 22  9  8 18  1 21 31 19 17 13
+  6  2  3 23  4 11 28 27]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+161	./A-VRP/A-n32-k5.vrp	32	0.2	1342	ILS Tabu	6	3.5468757152557373	859	"[ 0  1 21 31 19 17 13 26 14 29 22  9 15 10 25  5 20 27 18  8 11  4 28 24
+  6 23  3  2  7 12 16 30]"	"[False  True False False False False False  True False False False False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+162	./A-VRP/A-n32-k5.vrp	32	0.3	1222	GRASP	6	0.14062762260437012	1089	"[ 0 12 13  2  3 28 18 22 10 29 14 26  1  7 31 19 21 17 24 30 27 20 25  5
+  6 23 11  9  4  8 15 16]"	"[False  True False False False False False False False False False False
+  True False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+163	./A-VRP/A-n32-k5.vrp	32	0.3	1222	ILS	6	0.17187118530273438	969	"[ 0  1 21 31 17 19  6 14 27 29 10 18  8 11  4  3  2 26 23 28 22  9 15 25
+  5 20 24 13  7 12 30 16]"	"[False  True False False False False False False  True False False False
+ False False False False False False  True False False False False False
+ False  True False False False False  True False]"	True
+164	./A-VRP/A-n32-k5.vrp	32	0.3	1222	Simulated Annealing	6	4.171875953674316	860	"[ 0 14 22 18  8 11  4 28 23  2  3 26 13 17 19 31 21 16 12  1  7  6 24 20
+ 27 29  9 15 10 25  5 30]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+165	./A-VRP/A-n32-k5.vrp	32	0.3	1222	Tabu Search	6	0.09374856948852539	934	"[ 0 27 29 22  9 18 11  4 23  6 14 20 28  8 15 10 25  5 12  1  7 13  2  3
+ 26 17 19 31 21 16 30 24]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+166	./A-VRP/A-n32-k5.vrp	32	0.3	1222	GRASP Tabu	6	2.093752384185791	847	"[ 0 27 24 14 26  1 16 30  7 13 17 19 31 21 29  8 11  4 28  2  3  6 20  5
+ 25 10 15 22  9 18 23 12]"	"[False  True False False False False False False  True False False False
+ False False  True False False False False False False False  True False
+ False False False False False False False  True]"	True
+167	./A-VRP/A-n32-k5.vrp	32	0.3	1222	ILS Tabu	6	2.1093740463256836	836	"[ 0 24 22  9 18  8 11  4 28 20  5 25 10 15 29 27 14  6 23  3  2  7 26  1
+ 13 17 19 31 21 12 16 30]"	"[False  True False False False False False False False  True False False
+ False False False False  True False False False False False False  True
+ False False False False False  True False False]"	True
+168	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP	7	0.09374761581420898	1040	"[ 0 27 20  5 15 25 10 29 22 18 14  7 13 31 21 17 19 26  1 16 12 30  6  3
+ 23  2  8 11 28  4  9 24]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+169	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS	7	0.09374856948852539	885	"[ 0 30 16 26 12  1 24 14 18  8  9 22 15 10 25  5 29  7 13 17 31 19 21  6
+ 23  3  2 28  4 11 27 20]"	"[False  True False False False False False  True False False False False
+ False False False False False  True False False False False False  True
+ False False False False False False  True False]"	True
+170	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Simulated Annealing	7	3.609421968460083	938	"[ 0  7  6  2  3 23 18 29 10 25 30 26 21 31 19 17 13 14 28  4 11  8  9 22
+ 15 20  5 27 16  1 12 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+171	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Tabu Search	7	0.07808279991149902	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+172	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP Tabu	7	3.203120470046997	901	"[ 0 26 13 21 31 19 17  6 14 30 16  7 18  8  9 22 24 20  5 25 10 15 29 27
+ 11  4 28 23  2  3 12  1]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+173	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS Tabu	7	3.859377861022949	871	"[ 0 30 26 16  7  1 12 29 18  8  9 22 15 10 25  5 20 14 13 21 31 19 17  6
+  3  2 23  4 11 28 24 27]"	"[False  True False False False False False  True False False False False
+ False False False False  True False False False False False False  True
+ False False False False False False  True False]"	True
+174	./A-VRP/A-n32-k5.vrp	32	0.1	1207	GRASP	7	0.1250009536743164	1095	"[ 0 30 14 24 27 20  5 10 22  8 18 29 26 12 13  2 28 23  3  6 16  7 21 31
+ 19 17 25  9 15 11  4  1]"	"[False  True False False False False False False False False False False
+ False  True False False False False False False  True False False False
+ False False  True False False False False  True]"	True
+175	./A-VRP/A-n32-k5.vrp	32	0.1	1207	ILS	7	0.15624666213989258	902	"[ 0 30 16  7 26 14 24 27 20  5 29 15 22 11  4  8 18  2  3 23 28  9 10 25
+ 13 21 31 19 17  6 12  1]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+176	./A-VRP/A-n32-k5.vrp	32	0.1	1207	Simulated Annealing	7	3.671879529953003	845	"[ 0 20  5 25 10 15  9 22 29 14 30 16  7  2  3 23  6 26 27 18  8 11  4 28
+ 24 13 17 19 31 21  1 12]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+177	./A-VRP/A-n32-k5.vrp	32	0.1	1207	Tabu Search	7	0.07816481590270996	956	"[ 0 30 16 12  1  7 26 14 22 29  6  2  3 23 28  4 11 18 20  5 25 10 15  9
+  8 13 21 31 19 17 27 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+178	./A-VRP/A-n32-k5.vrp	32	0.1	1207	GRASP Tabu	7	4.531208038330078	850	"[ 0 30 26 13 21 31 19 17 14 27 24  7  1 12 20  5 25 10 29 15 22  9  8 18
+  2  3 23  4 11 28  6 16]"	"[False  True False False False False False False False  True False False
+ False False  True False False False False False False False False False
+  True False False False False False False  True]"	True
+179	./A-VRP/A-n32-k5.vrp	32	0.1	1207	ILS Tabu	7	5.328127861022949	831	"[ 0 13 21 31 19 17  6 26 20  5 29 25 10 15 22  9  8 18  3  2 23  4 11 28
+ 14 12  1  7 16 30 24 27]"	"[False  True False False False False False False  True False False False
+ False False False False False False  True False False False False False
+ False  True False False False False  True False]"	True
+180	./A-VRP/A-n32-k5.vrp	32	0.2	1291	GRASP	7	0.1718747615814209	1083	"[ 0 27 30 12  1 13 26 14 29 18  2  6  3 23  4 28  8 22  7 19 31 17 21 16
+ 20  5 25 10 15  9 11 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+181	./A-VRP/A-n32-k5.vrp	32	0.2	1291	ILS	7	0.5156240463256836	921	"[ 0 30 24 14  6  3  2 23  8 18 22 27 29 15 10 25  5 20  9 11  4 28 13  7
+ 26 21 17 19 31  1 12 16]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+ False  True False False False False  True False]"	True
+182	./A-VRP/A-n32-k5.vrp	32	0.2	1291	Simulated Annealing	7	4.2187464237213135	864	"[ 0 20  5 25 10 15 29 14 24  6  2  3 23  4 11 27 12  1  7 28  8 18  9 22
+ 16 21 31 19 17 13 26 30]"	"[False  True False False False False False False False  True False False
+ False False False False  True False False False False False False False
+  True False False False False False False  True]"	True
+183	./A-VRP/A-n32-k5.vrp	32	0.2	1291	Tabu Search	7	0.06249880790710449	1049	"[ 0 30 12  1 13 21 31  3 29 20 27 14 17 19  7 26  6  2 23 28  4 11  8 18
+ 25 10 15  9 22  5 16 24]"	"[False  True False False False False False False False  True False False
+ False False False False  True False False False False False False False
+  True False False False False False False  True]"	True
+184	./A-VRP/A-n32-k5.vrp	32	0.2	1291	GRASP Tabu	7	2.3281290531158447	914	"[ 0 30 12  1 16 26 14 29 27 15 22 18  8 28 23  3  2  6 20  5 25 10  9 11
+  4  7 13 17 19 31 21 24]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+185	./A-VRP/A-n32-k5.vrp	32	0.2	1291	ILS Tabu	7	2.78125	880	"[ 0 30 12  1  7  6 14 13 17 19 31 21 16 26  3  2  4 11  8  9 29 20  5 25
+ 10 15 22 18 28 23 24 27]"	"[False  True False False False False False  True False False False False
+ False False  True False False False False False False  True False False
+ False False False False False False  True False]"	True
+186	./A-VRP/A-n32-k5.vrp	32	0.3	1316	GRASP	7	0.10937690734863281	1103	"[ 0 26 13 12 16 14 24 20  5 30  7 19 17 31  3 18 27 29 25 10 15  9 22  6
+ 23 28  4 11  8  2 21  1]"	"[False  True False False False False False False False  True False False
+ False False False False  True False False False False False False  True
+ False False False False False False  True False]"	True
+187	./A-VRP/A-n32-k5.vrp	32	0.3	1316	ILS	7	0.2031235694885254	969	"[ 0 14 24 13  1 16 30 27  7 21 17 31 19  3  2  8 28 18 22  9 15  5 20 25
+ 10 29 11  4 23  6 26 12]"	"[False  True False False False False False  True False False False False
+ False  True False False False False False False False False  True False
+ False False False False False False False  True]"	True
+188	./A-VRP/A-n32-k5.vrp	32	0.3	1316	Simulated Annealing	7	3.6718733310699463	845	"[ 0 20  5 25 10 15  9 22 29 14 24 28  4 11  8 18 27 26  6 23  3  2  7 16
+ 30  1 21 31 19 17 13 12]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False False
+ False  True False False False False False  True]"	True
+189	./A-VRP/A-n32-k5.vrp	32	0.3	1316	Tabu Search	7	0.06250143051147461	1030	"[ 0 30 16  1  7 26 24 14 18 29 13 21 31 19 17  3  6 27  5 25 10 22  9  8
+ 28  2 23  4 11 15 20 12]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False False
+ False  True False False False False False  True]"	True
+190	./A-VRP/A-n32-k5.vrp	32	0.3	1316	GRASP Tabu	7	2.359370708465576	897	"[ 0 27 20  5 25 10 29 24 14 26  7 19 31 21  1 16 28  4 11  8 18  9 22 15
+ 13 17  2  3 23  6 30 12]"	"[False  True False False False False False False False False  True False
+ False False False False  True False False False False False False False
+  True False False False False False False  True]"	True
+191	./A-VRP/A-n32-k5.vrp	32	0.3	1316	ILS Tabu	7	2.4375033378601074	876	"[ 0 30 12  1  7 16 26 13 21 31 19 17  3 23 18 14  5 25 10 15  9 22 29 20
+  6  2 28  4 11  8 24 27]"	"[False  True False False False False False  True False False False False
+ False False False False  True False False False False False False False
+  True False False False False False  True False]"	True
+192	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP	8	0.12499761581420898	1041	"[ 0 27 20  5 25 15 29 18 28 12  1 16 30 24 14  7 13 21 19 17 31 26  6  3
+ 23  2 11  4  8 22 10  9]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False  True False
+ False False False False False False False  True]"	True
+193	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS	8	0.1250016689300537	949	"[ 0 30  7  1 12 14 24  5 29 10 15 22 18 11  4  6  3 26 16 21 31 17 19 13
+  2 23 28  8  9 25 20 27]"	"[False  True False False False False False  True False False False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+194	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Simulated Annealing	8	3.87504243850708	869	"[ 0 22  9 11  4 23  3  6 16 26 20  5 25 10 15 29 14 24 27 18  8 28  2  7
+ 12  1 21 31 19 17 13 30]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+195	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Tabu Search	8	0.06250524520874023	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+196	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP Tabu	8	1.531200647354126	897	"[ 0 27  5 29 24 14 26 16 12 20 25 10 15  9 18  8 28 13 17 19 31 21  1 22
+ 11  4 23  3  2  6  7 30]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False  True
+ False False False False False False False  True]"	True
+197	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS Tabu	8	2.6406261920928955	849	"[ 0 27 24 14 13  7 16 26 18  8  9 22 15 29 10 25  5 20 28 11  4 23  3  2
+  6 17 19 31 21  1 12 30]"	"[False  True False False False False False False  True False False False
+ False False False False False False  True False False False False False
+ False  True False False False False  True False]"	True
+198	./A-VRP/A-n32-k5.vrp	32	0.1	1247	GRASP	8	0.18750333786010742	1069	"[ 0 27 20  5 25 10 22 11  8 18 29 14 26 12  1 13 17 21 31  7 16 19  6  2
+  3 30 23  4 28  9 15 24]"	"[False  True False False False False False False False False False False
+ False  True False False False False False  True False False False False
+ False  True False False False False False  True]"	True
+199	./A-VRP/A-n32-k5.vrp	32	0.1	1247	ILS	8	0.15627765655517578	930	"[ 0 21 17 19 31 13  7 26 30  6  3  2 23 18  9 22 29 15  8 11  4 28 16 20
+ 25 10  5 27 14 24  1 12]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False  True
+ False False False False False False  True False]"	True
+200	./A-VRP/A-n32-k5.vrp	32	0.1	1247	Simulated Annealing	8	3.6405956745147705	836	"[ 0 27 22  9 18  8 11  4 28 26 20  5 25 10 15 29 14 24  6 23  3  2  7 16
+ 30  1 21 31 19 17 13 12]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+201	./A-VRP/A-n32-k5.vrp	32	0.1	1247	Tabu Search	8	0.0781240463256836	1015	"[ 0 26 16  1  7  6  2 23 18 14 24 27 20  5 10 15 22 29 30  3 17 19 31 21
+ 13 25  9 11  4 28  8 12]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+202	./A-VRP/A-n32-k5.vrp	32	0.1	1247	GRASP Tabu	8	1.6093745231628418	870	"[ 0 30 26 16  7  2  3 23  6 14 27 18  8 11  4 28 24  5 25 10 15  9 22 29
+ 20 13 17 19 31 21  1 12]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False False
+ False  True False False False False  True False]"	True
+203	./A-VRP/A-n32-k5.vrp	32	0.1	1247	ILS Tabu	8	4.296873331069946	836	"[ 0  7 13 17 19 31 21  2  3 23 28  4 11  8 18 22 29 14 30 16 26 24 27 20
+  5 25 10 15  9  6 12  1]"	"[False  True False False False False False  True False False False False
+ False False False False False False  True False False False False  True
+ False False False False False False  True False]"	True
+204	./A-VRP/A-n32-k5.vrp	32	0.2	1231	GRASP	8	0.14062905311584473	1023	"[ 0 20 25 10 15  9 22 28 18  7 12 26 27 14  2  6 16  1 31 19 21 13 30 17
+  3 23  4 11  8 29  5 24]"	"[False  True False False False False False False False  True False False
+ False False False False  True False False False False False  True False
+ False False False False False False False  True]"	True
+205	./A-VRP/A-n32-k5.vrp	32	0.2	1231	ILS	8	0.1093742847442627	1057	"[ 0 20 24 14 18 22  6 13  7 26 30 16 19 31 21 17  3 27  5 25 10 29 15  9
+ 28  8 11  4 23  2  1 12]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+206	./A-VRP/A-n32-k5.vrp	32	0.2	1231	Simulated Annealing	8	3.4531209468841553	839	"[ 0 20  5 25 10 15 29 14 24 16  7 13  2  3 23  6 26 27 22  9 11  4 28  8
+ 18  1 21 31 19 17 30 12]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False False
+ False  True False False False False  True False]"	True
+207	./A-VRP/A-n32-k5.vrp	32	0.2	1231	Tabu Search	8	0.0781257152557373	1181	"[ 0 27 24 14 26 16  1  6 18 30 12  7 13 21  3 23  8 20  5 25 10 29 15  9
+ 22 31 19 17  2 28  4 11]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False False
+ False  True False False False False  True False]"	True
+208	./A-VRP/A-n32-k5.vrp	32	0.2	1231	GRASP Tabu	8	2.1562557220458984	903	"[ 0 30 26  1  7 13  2  3 18 14 20  5 25 10 15 29 27 22  9  8 11  4 28 23
+  6 12 21 31 19 17 16 24]"	"[False  True False False False False False False False False  True False
+ False False False False False  True False False False False False False
+ False  True False False False False  True False]"	True
+209	./A-VRP/A-n32-k5.vrp	32	0.2	1231	ILS Tabu	8	2.765618324279785	818	"[ 0 26 16  1 12 30 14  6  2  3 23  4 11  8 18 29 20  5 25 10 15 22  9 28
+  7 21 31 19 17 13 24 27]"	"[False  True False False False False  True False False False False False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+210	./A-VRP/A-n32-k5.vrp	32	0.3	1276	GRASP	8	0.12500381469726562	1027	"[ 0 16 30 12 14 24 27  7 13 17 19 31 21 26 20  5 29 22 18  8  9 11  4  3
+  6  1 23  2 28 15 10 25]"	"[False  True False False False False False  True False False False False
+ False False  True False False False False False False False False False
+ False  True False False False False False  True]"	True
+211	./A-VRP/A-n32-k5.vrp	32	0.3	1276	ILS	8	0.109375	915	"[ 0 20 29 15 22  9 10 25  5 27 24 14  6  2  3 23 26 16 13 21 17 19 31 30
+ 18  8 11  4 28  7  1 12]"	"[False  True False False False False False False False  True False False
+ False False False False False  True False False False False False  True
+ False False False False False False  True False]"	True
+212	./A-VRP/A-n32-k5.vrp	32	0.3	1276	Simulated Annealing	8	4.281251668930054	896	"[ 0 29 22  9 18 11  4 28  6 14 30  8 23  3  2  7  1 12 26 13 17 19 31 21
+ 16 27 15 10 25  5 20 24]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+213	./A-VRP/A-n32-k5.vrp	32	0.3	1276	Tabu Search	8	0.07812356948852539	990	"[ 0 30 16 26 18  8 22 15 10 27 14 12  1  7 29 25  5 20 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+214	./A-VRP/A-n32-k5.vrp	32	0.3	1276	GRASP Tabu	8	1.515622854232788	893	"[ 0 12  1 16 30 26 14 27  5 25 10 29 15 22 11 28 18  6  2  3 23  4  8  9
+ 20  7 13 21 31 19 17 24]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+ False  True False False False False False  True]"	True
+215	./A-VRP/A-n32-k5.vrp	32	0.3	1276	ILS Tabu	8	4.906249046325684	827	"[ 0 20  5 25 10 15 22  9  8 18 29 12  1  7 16 26 30 13 21 31 19 17 14 28
+ 11  4 23  2  3  6 24 27]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False  True
+ False False False False False False  True False]"	True
+216	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP	9	0.12500548362731934	1060	"[ 0 20 25 29 14 27 13  7 26 16 12  1 30  6 28 21 17 31 19 23  2  3  5 10
+ 15 22  8  4 11  9 18 24]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False  True False
+ False False False False False False False  True]"	True
+217	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS	9	0.12500309944152832	934	"[ 0 30 16  1  6 14 27 20  5 29 10 25 15  9 22 18  8 23 26 21 31 19 17 13
+  7  3  2  4 11 28 24 12]"	"[False  True False False False False False False  True False False False
+ False False False False False False False  True False False False False
+ False  True False False False False False  True]"	True
+218	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Simulated Annealing	9	4.28128719329834	853	"[ 0 20  5 25 10 15  9 22 29 14  6 23 28  4 11  8 18 27 30 12  1  7  2  3
+ 26 13 17 19 31 21 16 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+219	./A-VRP/A-n32-k5.vrp	32	0.0	1137	Tabu Search	9	0.062458038330078125	964	"[ 0 30 26 16 12  1  7  8 18 14 27 20  5 25 10 15 22 29 13 21 31 19 17  3
+  6  2 23 28  4 11  9 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+220	./A-VRP/A-n32-k5.vrp	32	0.0	1137	GRASP Tabu	9	2.328124523162842	878	"[ 0 30 16 12  7 26 14 24 29 13 17 19 31 21  1 20  5 25 10 15 22  9  8 18
+  6  3  2 23  4 11 28 27]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False False
+  True False False False False False False  True]"	True
+221	./A-VRP/A-n32-k5.vrp	32	0.0	1137	ILS Tabu	9	1.9843738079071045	846	"[ 0 30 26 16  7  1 12  5 25 10 15 22  9  8 18 29 20 14  6 17 19 31 21 13
+  3  2 23 28  4 11 27 24]"	"[False  True False False False False False  True False False False False
+ False False False False False  True False False False False False False
+  True False False False False False  True False]"	True
+222	./A-VRP/A-n32-k5.vrp	32	0.1	1227	GRASP	9	0.15628910064697266	1012	"[ 0 27 20  5 25 10 29  9  8 22 18 14  7 21 13 17 31 19 26 24 30  1 16 12
+  6  2  3 23 28 11  4 15]"	"[False  True False False False False False False False False False False
+  True False False False False False False  True False False False False
+  True False False False False False False  True]"	True
+223	./A-VRP/A-n32-k5.vrp	32	0.1	1227	ILS	9	0.23433971405029297	971	"[ 0 30 26 19 17 31 21  1  7 13  3 23  2 28 18  8 22 29 25 10 15  5 20 14
+ 24 16  6  4 11  9 27 12]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+ False  True False False False False False  True]"	True
+224	./A-VRP/A-n32-k5.vrp	32	0.1	1227	Simulated Annealing	9	4.203119993209839	882	"[ 0 22  9 18  8 23  3  2  7 12 20  5 25 10 15 29 14 24 16 21 31 19 17 13
+ 26  1  6 28  4 11 27 30]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+225	./A-VRP/A-n32-k5.vrp	32	0.1	1227	Tabu Search	9	0.0781240463256836	954	"[ 0 30 12  1  7 16 26  8 18 14 27 20  5 25 10 15 22 29  2  3 23 28  4 11
+  9 13 21 31 19 17  6 24]"	"[False  True False False False False False False False False  True False
+ False False False False False False  True False False False False False
+ False  True False False False False False  True]"	True
+226	./A-VRP/A-n32-k5.vrp	32	0.1	1227	GRASP Tabu	9	3.0625076293945312	903	"[ 0 27 14  2 17 13  7 26 30 12  1 21 31 19  6  3 23 28  4 11  8 18  9 29
+ 20  5 25 10 15 22 24 16]"	"[False  True False False False False False False  True False False False
+ False False  True False False False False False False False False False
+  True False False False False False False  True]"	True
+227	./A-VRP/A-n32-k5.vrp	32	0.1	1227	ILS Tabu	9	3.593747854232788	816	"[ 0 14  3  2 23  4 11  8  9 22 29 26 16  1 12 30 20  5 25 10 15 18 28  6
+  7 21 31 19 17 13 24 27]"	"[False  True False False False False False False False False False  True
+ False False False False  True False False False False False False False
+  True False False False False False  True False]"	True
+228	./A-VRP/A-n32-k5.vrp	32	0.2	1185	GRASP	9	0.12499785423278809	1028	"[ 0 14 24 30 16 12 26  6 18 20  5 10 25 29 22 15  8  9  1 21 17 19 31 13
+  7  2  3 23 28 11  4 27]"	"[False  True False False False False False False False  True False False
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+229	./A-VRP/A-n32-k5.vrp	32	0.2	1185	ILS	9	0.1718735694885254	944	"[ 0 17 19 31 21  1 26 30 20  5 25 10 15 22  9 29 14 11  4 23  3  6 13 16
+ 27  8 18 28  2  7 12 24]"	"[False  True False False False False False False  True False False False
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+230	./A-VRP/A-n32-k5.vrp	32	0.2	1185	Simulated Annealing	9	4.312500953674316	904	"[ 0 26  2  3 23 28  4 11  8 18 20  1 21 31 19 17 13 16  7  6  9 22 24 27
+  5 25 10 15 29 14 30 12]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False  True
+ False False False False False False False  True]"	True
+231	./A-VRP/A-n32-k5.vrp	32	0.2	1185	Tabu Search	9	0.07812619209289551	1017	"[ 0 30 26 16  7 24 14  6 18 29 20  1 21 31 19 17 13 27 28  4 11  8 25  5
+ 10 15 22  9 23  2  3 12]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False  True
+ False False False False False False False  True]"	True
+232	./A-VRP/A-n32-k5.vrp	32	0.2	1185	GRASP Tabu	9	3.2656216621398926	907	"[ 0 14 27 20  5 29 25 10 15 22 18 26 16 13 17 19 31 21 12  1  7  3  6 24
+  2 23 28  4 11  8  9 30]"	"[False  True False False False False False False False False False  True
+ False False False False False False  True False False False False False
+  True False False False False False False  True]"	True
+233	./A-VRP/A-n32-k5.vrp	32	0.2	1185	ILS Tabu	9	6.171877384185791	857	"[ 0 18 28  4 11  8  9 22 15 29 26 17 19 31 21  1 16  7 13  2  3 23  6 14
+ 24 27 20  5 25 10 30 12]"	"[False  True False False False False False False False False  True False
+ False False False False  True False False False False False False False
+  True False False False False False  True False]"	True
+234	./A-VRP/A-n32-k5.vrp	32	0.3	1245	GRASP	9	0.5312936305999756	1014	"[ 0 30  7 17 21 19 31 14 26 12 16 13 24 27  6  2  3 23  4  9 18 22 29  5
+ 20 25 10 15 28  8 11  1]"	"[False  True False False False False False False False  True False False
+ False False  True False False False False False False False False False
+  True False False False False False False  True]"	True
+235	./A-VRP/A-n32-k5.vrp	32	0.3	1245	ILS	9	0.2343764305114746	1052	"[ 0 30 26 12 16  1  6  2  3 23 17 19 13 24 14 27  5 29 22  9  8 11 18 28
+  4 15 10 25 20  7 21 31]"	"[False  True False False False False False  True False False False False
+ False  True False False False False False False False False False  True
+ False False False False False  True False False]"	True
+236	./A-VRP/A-n32-k5.vrp	32	0.3	1245	Simulated Annealing	9	3.671875238418579	811	"[ 0  6  2  3 23 28  4 11 29 30 12  1 16 14 24 18  8  9 22 15 10 25  5 20
+ 26  7 13 17 19 31 21 27]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False False
+  True False False False False False False  True]"	True
+237	./A-VRP/A-n32-k5.vrp	32	0.3	1245	Tabu Search	9	0.578078031539917	936	"[ 0 30 26 16 12  7  2 18 14  1 21 31 19 17 13 20  5 25 10 15 22  9  8 29
+ 24  6 28 11  4 23  3 27]"	"[False  True False False False False False False False  True False False
+ False False False  True False False False False False False False False
+  True False False False False False False  True]"	True
+238	./A-VRP/A-n32-k5.vrp	32	0.3	1245	GRASP Tabu	9	3.3281402587890625	913	"[ 0 20  5 29 25 10 15 18  8 28 14 24  7  1 12 16 26 13 21 31 19 17  3 23
+ 30  6  2  4 11  9 22 27]"	"[False  True False False False False False False False False False  True
+ False False False False False  True False False False False False False
+  True False False False False False False  True]"	True
+239	./A-VRP/A-n32-k5.vrp	32	0.3	1245	ILS Tabu	9	2.499983310699463	885	"[ 0 16  1  7 13 23 28  8 18 12 21 31 19 17  6 26 20  5 25 10 15 29 14 24
+ 27 22  9 11  4  2  3 30]"	"[False  True False False False False False False False  True False False
+ False False False False  True False False False False False False False
+  True False False False False False False  True]"	True

@@ -7,9 +7,11 @@ from shaking import shake, perturb
 from utils import calculate_cost, is_valid
 
 @njit
-def grasp(D, demands, Q, alpha=0.3, non_improving_iter=1000):
-    best_cost = np.inf
-    best_sol = None
+def grasp(route, start, D, demands, Q, alpha=0.3, non_improving_iter=1000):
+    route, start = local_search(route, start, D, demands, Q)
+    best_cost = calculate_cost(route, start, D)
+    best_sol = (route, start)
+    
     current_nii = 0
     while current_nii < non_improving_iter:
         route, start = greedy(D, demands, Q, alpha)
@@ -122,9 +124,11 @@ def do_tabu_search(route, start, D, demands, Q):
 # hybrid
 
 @njit
-def grasp_tabu(D, demands, Q, alpha=0.3, non_improving_iter=1000):
-    best_cost = np.inf
-    best_sol = None
+def grasp_tabu(route, start, D, demands, Q, alpha=0.3, non_improving_iter=1000):
+    route, start = tabu_search(route, start, D, demands, Q, D.shape[0] // 3, 4 * D.shape[0])
+    best_cost = calculate_cost(route, start, D)
+    best_sol = (route, start)
+
     current_nii = 0
     while current_nii < non_improving_iter:
         route, start = greedy(D, demands, Q, alpha)
