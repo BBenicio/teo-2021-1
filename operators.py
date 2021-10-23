@@ -19,8 +19,8 @@ def two_opt(route, start):
     neighbourhood = []
     route_starts = np.argwhere(start).flatten()
     for p in range(route_starts.shape[0]):
-        rs = route[p]
-        re = route[p+1] if p+1 < route_starts.shape[0] else route.shape[0]
+        rs = route_starts[p]
+        re = route_starts[p+1] if p+1 < route_starts.shape[0] else route.shape[0]
         
         for i in range(rs+1, re):
             for j in range(i+1, re):
@@ -65,3 +65,35 @@ def relocate(route, start):
 def aggregate(route, start):
     return swap(route, start) + two_opt(route, start)
     # return relocate(route, start) + swap(route, start) + two_opt(route, start)
+
+
+# TABU variants
+
+@njit((types.int32[::1], types.boolean[::1]))
+def tabu_swap(route, start):
+    neighbourhood = []
+    for i in range(1, route.shape[0]):
+        for j in range(i+1, route.shape[0]):
+            new_route = route.copy()
+            new_route[i], new_route[j] = new_route[j], new_route[i]
+            neighbourhood.append((new_route, start, (i, j)))
+    
+    return neighbourhood
+
+
+@njit((types.int32[::1], types.boolean[::1]))
+def tabu_two_opt(route, start):
+    neighbourhood = []
+    route_starts = np.argwhere(start).flatten()
+    for p in range(route_starts.shape[0]):
+        rs = route_starts[p]
+        re = route_starts[p+1] if p+1 < route_starts.shape[0] else route.shape[0]
+        
+        for i in range(rs+1, re):
+            for j in range(i+1, re):
+                new_route = route.copy()
+                new_route[i:j] = np.flip(new_route[i:j])
+
+                neighbourhood.append((new_route, start, (i, j)))
+    
+    return neighbourhood
