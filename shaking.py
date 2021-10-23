@@ -58,26 +58,18 @@ def shake(route, start, D, demands, Q, k=10, alpha=0):
 @njit((types.int32[::1], types.boolean[::1], types.int32[::1], types.int64))
 def rand_two_opt(route, start, demands, Q):
     route_starts = np.argwhere(start).flatten()
-    rs, re = 0, 0
-    while re - rs < 4:
-        p = np.random.choice(route_starts)
-        rs = route[p]
-        re = route[p+1] if p+1 < route_starts.shape[0] else route.shape[0]
+    p = np.random.randint(0, route_starts.shape[0])
+    rs = route_starts[p]
+    re = route_starts[p+1] if p+1 < route_starts.shape[0] else route.shape[0]
     
-    irange = np.arange(rs+1, re)
-    np.random.shuffle(irange)
-    for i in irange:
-        jrange = np.arange(i, re)
-        np.random.shuffle(jrange)
-        for j in jrange:
-            if not start[i] and not start[j]:
-                new_route = route.copy()
-                new_route[rs+i:j] = np.flip(new_route[rs+i:j])
-                if is_valid(new_route, start, demands, Q):
-                    return new_route, start
-        
-    return route, start
+    new_route = route.copy()
+    if re - rs >= 4:
+        i = np.random.randint(rs+1, re-1)
+        j = np.random.randint(i+1, re)
 
+        new_route[i:j] = np.flip(new_route[i:j])
+
+    return new_route, start
 
 @njit((types.int32[::1], types.boolean[::1], types.int32[::1], types.int64))
 def rand_relocate(route, start, demands, Q):
@@ -115,7 +107,7 @@ def rand_swap(route, start, demands, Q):
 
 @njit((types.int32[::1], types.boolean[::1], types.int32[::1], types.int64))
 def perturb(route, start, demands, Q):
-    # route, start = rand_two_opt(route, start, demands, Q)
     route, start = rand_swap(route, start, demands, Q)
+    route, start = rand_two_opt(route, start, demands, Q)
     # route, start = rand_relocate(route, start, demands, Q)
     return route, start
