@@ -131,8 +131,8 @@ def run_mh(files: 'list[str]', grasp=True, ils=True, simulated_annealing=True, t
     return metadata
 
 if __name__ == '__main__':
-    # files = glob.glob('./A-VRP/*.vrp')
-    files = ['./A-VRP/A-n32-k5.vrp']
+    files = glob.glob('./A-VRP/*.vrp')
+    # files = ['./A-VRP/A-n32-k5.vrp']
     meta = run_mh(files, iters=10)
     df = pd.DataFrame(meta)
     df.to_csv('results.tsv', sep='\t')
