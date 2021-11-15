@@ -7,9 +7,29 @@ import glob
 import pandas as pd
 
 
-def run_mh(files: 'list[str]', grasp=True, ils=True, simulated_annealing=True, tabu_search=True, grasp_tabu=True, ils_tabu=True, iters=1) -> 'list[dict]':
+def precompile(D, demands, Q):
+    s0 = greedy(D, demands, Q, alpha=0)
+    route, start = metaheuristics.grasp(s0[0], s0[1], D, demands, Q, alpha=0.3, non_improving_iter=1)
+    route, start = metaheuristics.ils(s0[0], s0[1], D, demands, Q, k=1, non_improving_iter=1)
+    route, start = metaheuristics.simulated_annealing(s0[0], s0[1], D, demands, Q, T_max=1, T_min=0.1, alpha=0.95)
+    route, start = metaheuristics.do_tabu_search(s0[0], s0[1], D, demands, Q)
+    route, start = metaheuristics.grasp_tabu(s0[0], s0[1], D, demands, Q, alpha=0.3, non_improving_iter=1)
+    route, start = metaheuristics.ils_tabu(s0[0], s0[1], D, demands, Q, k=1, non_improving_iter=1)
+
+
+def pre_save(filename, meta):
+    df = pd.DataFrame(meta)
+    df.to_csv(f'results/{filename}.tsv', sep='\t')
+
+
+def run_mh(files: 'list[str]', do_pre_save=False, grasp=True, ils=True, simulated_annealing=True, tabu_search=True, grasp_tabu=True, ils_tabu=True, iters=1) -> 'list[dict]':
     metadata = []
+    print('precompiling functions')
     D, demands, Q = prepare_input(files[0])
+    t0 = time()
+    precompile(D, demands, Q)
+    t1 = time()
+    print(f'precompiling took {t1 - t0} seconds')
     
     for filepath in files:
         print(filepath)
@@ -126,6 +146,8 @@ def run_mh(files: 'list[str]', grasp=True, ils=True, simulated_annealing=True, t
                         'valid': is_valid(route, start, demands, Q)
                     })
             print()
+            if do_pre_save and i == iters-1:
+                pre_save(filepath[8:-4], metadata)
         
 
     return metadata
@@ -133,6 +155,6 @@ def run_mh(files: 'list[str]', grasp=True, ils=True, simulated_annealing=True, t
 if __name__ == '__main__':
     files = glob.glob('./A-VRP/*.vrp')
     # files = ['./A-VRP/A-n32-k5.vrp']
-    meta = run_mh(files, iters=10)
+    meta = run_mh(files, iters=3, do_pre_save=True)
     df = pd.DataFrame(meta)
-    df.to_csv('results.tsv', sep='\t')
+    df.to_csv('results/total.tsv', sep='\t')
