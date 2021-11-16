@@ -9,12 +9,12 @@ import pandas as pd
 
 def precompile(D, demands, Q):
     s0 = greedy(D, demands, Q, alpha=0)
-    route, start = metaheuristics.grasp(s0[0], s0[1], D, demands, Q, alpha=0.3, non_improving_iter=1)
-    route, start = metaheuristics.ils(s0[0], s0[1], D, demands, Q, k=1, non_improving_iter=1)
-    route, start = metaheuristics.simulated_annealing(s0[0], s0[1], D, demands, Q, T_max=1, T_min=0.1, alpha=0.95)
-    route, start = metaheuristics.do_tabu_search(s0[0], s0[1], D, demands, Q)
-    route, start = metaheuristics.grasp_tabu(s0[0], s0[1], D, demands, Q, alpha=0.3, non_improving_iter=1)
-    route, start = metaheuristics.ils_tabu(s0[0], s0[1], D, demands, Q, k=1, non_improving_iter=1)
+    _, _ = metaheuristics.grasp(s0[0], s0[1], D, demands, Q, alpha=0.3, non_improving_iter=1)
+    _, _ = metaheuristics.ils(s0[0], s0[1], D, demands, Q, k=1, non_improving_iter=1)
+    _, _ = metaheuristics.simulated_annealing(s0[0], s0[1], D, demands, Q, T_max=1, T_min=0.1, alpha=0.95)
+    _, _ = metaheuristics.do_tabu_search(s0[0], s0[1], D, demands, Q)
+    _, _ = metaheuristics.grasp_tabu(s0[0], s0[1], D, demands, Q, alpha=0.3, non_improving_iter=1)
+    _, _ = metaheuristics.ils_tabu(s0[0], s0[1], D, demands, Q, k=1, non_improving_iter=1)
 
 
 def pre_save(filename, meta):

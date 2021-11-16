@@ -20,7 +20,7 @@ def local_search(route: np.ndarray, start: np.ndarray, D: np.ndarray, demands: n
     while improved:
         improved = False
         # calcula a vizinhança
-        neighbourhood = aggregate(route, start) 
+        neighbourhood = aggregate(best_sol[0], best_sol[1]) 
         for r, s in neighbourhood:
             # precisamos verificar a validade da solução, caso seja inválida descarte
             if is_valid(r, s, demands, Q):
