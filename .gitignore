@@ -121,3 +121,5 @@ results/
 
 # VS Code
 *.code-workspace
+
+*.zip
